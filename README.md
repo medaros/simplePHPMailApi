@@ -14,7 +14,7 @@ It checks if all parametres of the inccoming post request match with the array *
 $required = array("firstName", "lastName", "phone", "email", "message");
 ```
 
-You can add more if you want.  
+You can add more parameters if you wish.  
 Then it does some basic security using php **htmlspecialchars()** function.  
 After that it verifies the data sent using a series of **if** conditions.  
 
