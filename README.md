@@ -62,6 +62,7 @@ else {
 ```
 
 ### Usage
+In this example I will use Angular 8 as my frontend you can use whatever you want React, Vuejs... :
 #### Angular 2+
 
 1. Create a **service** that will perform **POST requests** with contact form data to our API  :
