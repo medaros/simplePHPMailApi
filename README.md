@@ -40,8 +40,9 @@ else {
     $valid[$postKey] = "notvalid";
 }
 ```
+--
 
--Finally ! it sends the email :
+Finally ! it sends the email :
 
 ```php
 // email title
