@@ -7,6 +7,14 @@ To start using this api need to extract the .zip on your server.
 
 ## How it works
 This API handle only data sent using POST requests only.  
+It returns one object with one property and four possible values as :
+
+| Request       | Response              |
+| ------------- |:----------------------|
+| POST          | status :  notvalid *(string)* // if one of parameters is missing or does not match with if verification
+|               |           sent // if the email is sent
+|               |           error // if there is a probleme with the mail() function
+
 It checks if all parametres of the inccoming post request match with the array **$request** elements :  
 
 ```php
