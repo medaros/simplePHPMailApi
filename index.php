@@ -9,7 +9,7 @@ header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Max-Age: 1000');
 header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
 
-// les parametres autorisés - authorized parameteres
+// les parametres requis autorisés - required and authorized parameteres
 $required = array("firstName", "lastName", "phone", "email", "message");
 
 if(isset($_POST)) {
