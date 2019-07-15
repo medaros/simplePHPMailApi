@@ -56,7 +56,7 @@ else {
 ### Usage
 #### Angular 2+
 
-1.Create a service that will perform POST requests with contact form data to our API  :
+1. Create a service that will perform POST requests with contact form data to our API  :
 
 ```typescript
 import { Injectable } from '@angular/core';
@@ -69,7 +69,7 @@ export class MailService {
 }
 ```
 
-2.Import and inject HttpClient in constructor :
+2. Import and inject HttpClient in constructor :
 
 ```typescript
 import { HttpClient } from '@angular/common/http';
@@ -77,7 +77,7 @@ import { HttpClient } from '@angular/common/http';
 constructor(private http: HttpClient) { }
 ```
 
-3.Create a function inside our class that we could call later to perform our request to the api :
+3. Create a function inside our class that we could call later to perform our request to the api :
 
 ```typescript
 
@@ -87,7 +87,7 @@ sendMail(data) {
   
 ```
 
-4.Create a form and append its inputs
+4. Create a form and append its inputs
 ```typescript
 
 input = new FormData()
@@ -108,7 +108,7 @@ sendMail(data) {
 
 ```
 
-5.URL that specifies API folder location on our server :
+5. URL that specifies API folder location on our server :
 
 ```typescript
 export class MailService {
@@ -122,7 +122,7 @@ export class MailService {
   
 ```
 
-6.Perform the request and return the response
+6. Perform the request and return the response
 
 ```typescript
 sendMail(data) {
