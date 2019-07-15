@@ -11,7 +11,8 @@ It returns one object with one property and three possible values as :
 
 | Request       | Response              |
 | ------------- |:----------------------|
-| ```POST```    | ``` {"status" :  "notvalid"}```  if one of parameters is missing or does not match with its **if** verification
+| - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
+```POST```    | ``` {"status" :  "notvalid"}```  if one of parameters is missing or does not match with its **if** verification
 | ```POST```    | ``` {"status" : "sent"}``` if the email is sent
 | ```POST```    | ``` {"status" : "error"}``` if there is a probleme with the **mail()** function
 
