@@ -7,7 +7,7 @@ To start using this api need to extract the .zip on your server.
 
 ## How it works
 This API handle only data sent using POST requests only.  
-It returns one object with one property and four possible values as :
+It returns one object with one property and three possible values as :
 
 | Request       | Response              |
 | ------------- |:----------------------|
