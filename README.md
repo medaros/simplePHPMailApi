@@ -87,7 +87,7 @@ sendMail(data) {
   
 ```
 
-4. Create a form and append its inputs
+4. Create a form and append its inputs :
 ```typescript
 
 input = new FormData()
@@ -122,7 +122,7 @@ export class MailService {
   
 ```
 
-6. Perform the request and return the response
+6. Perform the request and return the response :
 
 ```typescript
 sendMail(data) {
