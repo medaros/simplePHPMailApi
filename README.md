@@ -3,7 +3,7 @@
 A simple api that checks contact form parameters and sends a mail using php built-in mail function
 
 ## How to install
-To start using this api need to do is extract the .zip on your server.
+To start using this api need to extract the .zip on your server.
 
 ## How it works
 This API handle only data sent using POST requests only
