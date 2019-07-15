@@ -1,22 +1,22 @@
 ![alt text](https://raw.githubusercontent.com/medaros/simplePHPMailApi/master/simplephpmailapi_logo.png)
 ## simplePHPMailApi
-A simple api that checks contact form parameters and sends a mail using php built-in mail function
+-A simple api that checks contact form parameters and sends a mail using php built-in mail function
 
 ## How to install
-To start using this api need to extract the .zip on your server.
+-To start using this api need to extract the .zip on your server.
 
 ## How it works
-This API handle only data sent using POST requests only
-It checks if all parametres of the inccoming post request match with the array **$request** elements :
+-This API handle only data sent using POST requests only.
+-It checks if all parametres of the inccoming post request match with the array **$request** elements :
 
 ```php
 // required and authorized parameteres
 $required = array("firstName", "lastName", "phone", "email", "message");
 ```
 
-You can add more if you want.
-Then it does some basic security using php **htmlspecialchars()** function.
-After that it verifies the data sent using a series of **if** conditions.
+-You can add more if you want.
+-Then it does some basic security using php **htmlspecialchars()** function.
+-After that it verifies the data sent using a series of **if** conditions.
 
 ```php
 // verifications
@@ -41,7 +41,7 @@ else {
 }
 ```
 
-Finally ! it sends the email :
+-Finally ! it sends the email :
 
 ```php
 // email title
