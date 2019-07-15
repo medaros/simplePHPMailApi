@@ -11,9 +11,9 @@ It returns one object with one property and four possible values as :
 
 | Request       | Response              |
 | ------------- |:----------------------|
-| POST          | ```json {"status" :  "notvalid"}``` *(string)* // if one of parameters is missing or does not match with if verification
-|               | **status : sent** // if the email is sent
-|               | **status : error** // if there is a probleme with the mail() function
+| POST          | ``` {"status" :  "notvalid"}```  if one of parameters is missing or does not match with if verification
+|               | ``` {"status" : "sent"}``` if the email is sent
+|               | ``` {"status" : "error"}``` if there is a probleme with the mail() function
 
 It checks if all parametres of the inccoming post request match with the array **$request** elements :  
 
