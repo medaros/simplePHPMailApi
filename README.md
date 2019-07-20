@@ -7,6 +7,7 @@ To start using this api need to extract the .zip on your server.
 
 ## How it works
 This API handle only data sent using POST requests only.  
+Default parameters (form-data): "firstName", "lastName", "phone", "email", "message". All are required. You can add or remove parameters in $required array.
 It returns one object with one property and three possible values as :
 
 | Request       | Response              |
